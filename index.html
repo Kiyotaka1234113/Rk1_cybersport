@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#091525">
+  <meta name="description" content="ERSACTZ Season 01: интерактивный отчёт о десяти Twitch-эфирах, аудитории, клипах и плане развития.">
+  <title>ERSACTZ — Season 01 / Twitch RK1</title>
+  <link rel="icon" href="assets/avatar.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержанию</a>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="masthead">
+    <a class="brand" href="#home" aria-label="ERSACTZ, на главную"><span class="brand-mark">e.</span><span>ERSACTZ <i>/</i> SEASON 01</span></a>
+    <span class="masthead-note">РК №1 · 2026</span>
+    <a class="masthead-link" href="https://www.twitch.tv/ersactz/about" target="_blank" rel="noopener noreferrer">TWITCH ↗</a>
+  </header>
+
+  <section class="hero" id="home" aria-labelledby="hero-title">
+    <div class="hero-media" role="img" aria-label="Аватар канала ersactz — медведь в шапке на фоне синего неба"></div>
+    <div class="hero-shade"></div>
+    <div class="hero-copy">
+      <p class="eyebrow reveal">TWITCH REPORT / 16.08 — 14.10.2026</p>
+      <h1 id="hero-title" class="reveal">ersactz<span class="period">.</span></h1>
+      <p class="hero-kicker reveal">Когда катка закончилась,<br>а статистика осталась.</p>
+      <p class="hero-byline reveal">Кабылбек Жанторе Батырбек <span>·</span> Dota 2 и разная шняга</p>
+      <a class="hero-enter reveal" href="#main" id="enter-site">СМОТРЕТЬ ПЕРВЫЙ СЕЗОН <span aria-hidden="true">↘</span></a>
+    </div>
+    <div class="hero-corner hero-corner-left">10 ЭФИРОВ <span>·</span> 26 Ч 20 М</div>
+    <div class="hero-corner hero-corner-right">107 ПРОСМОТРОВ <span>·</span> РЕАЛЬНЫЕ ДАННЫЕ</div>
+    <div class="scroll-cue" aria-hidden="true"><span></span>SCROLL</div>
+  </section>
+
+  <nav class="chapter-nav" aria-label="Разделы отчёта">
+    <div class="nav-inner" role="tablist" aria-label="Разделы аналитики">
+      <button class="chapter-tab active" role="tab" id="tab-overview" aria-selected="true" aria-controls="panel-overview" data-tab="overview"><small>01</small> Главное</button>
+      <button class="chapter-tab" role="tab" id="tab-growth" aria-selected="false" aria-controls="panel-growth" tabindex="-1" data-tab="growth"><small>02</small> Динамика</button>
+      <button class="chapter-tab" role="tab" id="tab-log" aria-selected="false" aria-controls="panel-log" tabindex="-1" data-tab="log"><small>03</small> Эфиры</button>
+      <button class="chapter-tab" role="tab" id="tab-swot" aria-selected="false" aria-controls="panel-swot" tabindex="-1" data-tab="swot"><small>04</small> SWOT и план</button>
+      <button class="chapter-tab" role="tab" id="tab-proof" aria-selected="false" aria-controls="panel-proof" tabindex="-1" data-tab="proof"><small>05</small> Кадры и источники</button>
+    </div>
+    <div class="nav-progress"><span id="nav-progress"></span></div>
+  </nav>
+
+  <main id="main">
+    <section class="chapter active" id="panel-overview" role="tabpanel" aria-labelledby="tab-overview" data-chapter="overview">
+      <div class="chapter-head reveal">
+        <p class="eyebrow">01 / CORE OVERVIEW</p>
+        <h2>Первый сезон.<br><em>Без дублёров.</em></h2>
+        <p>Десять эфиров из предоставленных карточек Twitch Analytics. Игры — Dota 2 и другие; постоянного расписания пока нет.</p>
+      </div>
+      <div class="big-stats reveal" aria-label="Главные показатели">
+        <div class="big-stat"><strong data-count="10">10</strong><span>эфиров</span><small>31 августа — 8 октября</small></div>
+        <div class="big-stat"><strong>26<sup>ч</sup> 20<sup>м</sup></strong><span>в эфире</span><small>сумма 10 карточек</small></div>
+        <div class="big-stat"><strong data-count="107">107</strong><span>просмотров эфиров</span><small>Live Views, не уникальные зрители</small></div>
+        <div class="big-stat"><strong data-count="5">5</strong><span>пиковый онлайн</span><small>14 сентября</small></div>
+      </div>
+      <div class="feature-scene reveal">
+        <div class="feature-image"><img src="assets/ted-night.jpg" alt="Кадр из фильма «Третий лишний»"></div>
+        <div class="feature-copy">
+          <span class="eyebrow">BEST EPISODE / 10.09</span>
+          <strong class="feature-number">20</strong>
+          <h3>просмотров одного эфира</h3>
+          <p>2 ч 08 м в эфире · 6 уникальных зрителей · 3 участника чата.</p>
+          <blockquote>«20 просмотров. Голливуд уже звонит.»</blockquote>
+          <button class="text-link" data-go="log" data-episode="4">ОТКРЫТЬ ЭФИР <span>↗</span></button>
+        </div>
+      </div>
+      <div class="editorial-note reveal"><span>РЕЖИССЁРСКАЯ РЕМАРКА</span><p>Складывать уникальных зрителей разных эфиров нельзя: один человек мог приходить несколько раз. Поэтому 107 — это просмотры прямых трансляций, а охват двух 30-дневных периодов показан отдельно.</p></div>
+    </section>
+
+    <section class="chapter" id="panel-growth" role="tabpanel" aria-labelledby="tab-growth" data-chapter="growth" hidden>
+      <div class="chapter-head reveal"><p class="eyebrow">02 / THE NUMBERS MOVE</p><h2>Динамика.<br><em>Сюжет с поворотами.</em></h2><p>Переключи показатель и нажми на столбик: это данные конкретного эфира, а не выдуманная кривая роста.</p></div>
+      <div class="metric-controls" role="group" aria-label="Показатель графика">
+        <button class="metric-button active" data-metric="views" aria-pressed="true">Просмотры</button>
+        <button class="metric-button" data-metric="unique" aria-pressed="false">Уникальные</button>
+        <button class="metric-button" data-metric="chat" aria-pressed="false">Чат</button>
+        <button class="metric-button" data-metric="peak" aria-pressed="false">Пик</button>
+        <button class="metric-button" data-metric="minutes" aria-pressed="false">Минуты</button>
+      </div>
+      <div class="chart-frame reveal"><div class="chart-top"><span id="chart-label">ПРОСМОТРЫ ПО ЭФИРАМ</span><span>НАЖМИ НА ЭПИЗОД ↓</span></div><div id="chart" class="chart" aria-label="Интерактивный график десяти эфиров"></div><div id="chart-detail" class="chart-detail" aria-live="polite"></div></div>
+      <div class="period-compare reveal">
+        <div><small>16.08 — 14.09</small><strong>0,9</strong><span>средний онлайн</span><b>12 уникальных · 5 в чате · +7 фолловеров</b></div>
+        <div class="compare-arrow" aria-hidden="true">→</div>
+        <div><small>15.09 — 14.10</small><strong>0,6</strong><span>средний онлайн</span><b>13 уникальных · 4 в чате · +1 фолловер</b></div>
+      </div>
+      <p class="data-note">Два последовательных 30-дневных отчёта Twitch. Сумма их длительностей отличается от суммы карточек отдельных эфиров на 4 минуты; здесь для общего итога использованы карточки эфиров.</p>
+    </section>
+
+    <section class="chapter" id="panel-log" role="tabpanel" aria-labelledby="tab-log" data-chapter="log" hidden>
+      <div class="chapter-head reveal"><p class="eyebrow">03 / EPISODE LIST</p><h2>Десять серий.<br><em>Каждая с цифрами.</em></h2><p>Открой эфир, чтобы увидеть полный набор показателей. Сортировка и поиск работают прямо на странице.</p></div>
+      <div class="log-tools"><label class="search-label">ПОИСК ПО ДАТЕ <input id="episode-search" type="search" placeholder="Например, 10.09" autocomplete="off"></label><label class="search-label">ПОРЯДОК <select id="episode-sort"><option value="date">По дате</option><option value="views">По просмотрам</option><option value="peak">По пику</option><option value="duration">По длительности</option></select></label></div>
+      <div id="episode-list" class="episode-list"></div>
+      <p class="data-note">AVG в карточках Twitch округлён до целого. Дата относится к началу эфира; некоторые трансляции завершались после полуночи.</p>
+    </section>
+
+    <section class="chapter" id="panel-swot" role="tabpanel" aria-labelledby="tab-swot" data-chapter="swot" hidden>
+      <div class="chapter-head reveal"><p class="eyebrow">04 / DIRECTOR'S NOTES</p><h2>SWOT-анализ.<br><em>Без сюжетной брони.</em></h2><p>Сильные и слабые стороны основаны на твоих данных. Возможности и риски — выводы для следующего месяца, а не доказанные причины изменений.</p></div>
+      <div class="swot-grid reveal">
+        <article class="swot-block"><div class="swot-head"><span>S</span><h3>Сильные стороны</h3></div><ul><li>10 эфиров и 26 ч 20 м практики за период</li><li>Лучший эфир 10.09 собрал 20 просмотров</li><li>Есть два вертикальных игровых видео для нарезки</li></ul></article>
+        <article class="swot-block"><div class="swot-head"><span>W</span><h3>Слабые стороны</h3></div><ul><li>Средний онлайн снизился с 0,9 до 0,6</li><li>Прирост фолловеров упал с 7 до 1</li><li>Нет постоянного расписания эфиров</li></ul></article>
+        <article class="swot-block"><div class="swot-head"><span>O</span><h3>Возможности</h3></div><ul><li>Нарезать моменты Dota 2 и других игр в Shorts</li><li>Закрепить два предсказуемых дня стрима</li><li>Обновить Twitch About в едином визуальном стиле</li></ul></article>
+        <article class="swot-block"><div class="swot-head"><span>T</span><h3>Риски</h3></div><ul><li>Ночные и нерегулярные эфиры осложняют повторный приход</li><li>Без анонсов зрители могут пропускать трансляции</li><li>Без коротких роликов трудно расширять охват</li></ul></article>
+      </div>
+      <div class="next-season reveal"><div><span class="eyebrow">SEASON 02 / ПЛАН НА 30 ДНЕЙ</span><h3>ERSACTZ<br>WILL RETURN.</h3></div><ol><li><strong>2 эфира в неделю</strong><span>закрепить время и объявить его в About</span></li><li><strong>2 клипа с эфира</strong><span>публиковать лучшие моменты после трансляции</span></li><li><strong>Проверка раз в неделю</strong><span>сравнивать онлайн, уникальных зрителей и чат</span></li></ol></div>
+      <div class="goal-line"><span>ЦЕЛИ, А НЕ ПРОГНОЗ:</span><strong>25 уникальных</strong><strong>10 в чате</strong><strong>онлайн ≥ 1,0</strong></div>
+    </section>
+
+    <section class="chapter" id="panel-proof" role="tabpanel" aria-labelledby="tab-proof" data-chapter="proof" hidden>
+      <div class="chapter-head reveal"><p class="eyebrow">05 / BEHIND THE SCENES</p><h2>Кадры.<br><em>Источники. Честность.</em></h2><p>Ниже — два реальных вертикальных видео из твоих файлов. Видео можно открыть и посмотреть прямо здесь.</p></div>
+      <div class="clip-gallery reveal"><button class="clip-card" data-video="assets/clip-1.mp4" aria-label="Открыть первое игровое видео"><img src="assets/clip-1.jpg" alt="Кадр первого игрового видео"><span class="clip-play">▶</span><span class="clip-caption"><b>CUT 01</b><small>ИГРОВОЙ МОМЕНТ ↗</small></span></button><button class="clip-card" data-video="assets/clip-2.mp4" aria-label="Открыть второе игровое видео"><img src="assets/clip-2.jpg" alt="Кадр второго игрового видео"><span class="clip-play">▶</span><span class="clip-caption"><b>CUT 02</b><small>ИГРОВОЙ МОМЕНТ ↗</small></span></button><div class="clip-editorial"><span class="eyebrow">CONTENT MACHINE</span><h3>Эфир → момент<br>→ клип → зритель.</h3><p>На Twitch за десять показанных эфиров аналитика отмечает один созданный клип. Два приложенных MP4 — отдельные исходные видео; я не приписываю их конкретным датам эфиров без подтверждения.</p><a class="text-link" href="https://www.twitch.tv/ersactz/clips" target="_blank" rel="noopener noreferrer">КЛИПЫ НА TWITCH <span>↗</span></a></div></div>
+      <div class="source-grid reveal"><div><span>ИСТОЧНИКИ ЦИФР</span><p>10 индивидуальных скриншотов Twitch Analytics и два общих 30-дневных отчёта, переданные автором.</p></div><div><span>ОТСУТСТВУЕТ</span><p>Скрин OBS и публичная ссылка Canva не были предоставлены. Их место не заполнено вымышленными материалами.</p></div><div><span>ССЫЛКИ</span><p><a href="https://www.twitch.tv/ersactz/about" target="_blank" rel="noopener noreferrer">Канал ersactz ↗</a><br><a href="https://www.twitch.tv/videos/2895221419" target="_blank" rel="noopener noreferrer">Запись Twitch ↗</a></p></div></div>
+    </section>
+  </main>
+
+  <footer><span>ERSACTZ <i>/</i> SEASON 01</span><p>РК1 · Twitch Analytics · 2026</p><a href="#home">НАВЕРХ ↑</a></footer>
+  <dialog id="video-dialog" class="video-dialog" aria-label="Игровое видео"><button id="video-close" class="video-close" aria-label="Закрыть видео">×</button><video id="video-player" controls playsinline preload="none"></video></dialog>
+</body>
+</html>
